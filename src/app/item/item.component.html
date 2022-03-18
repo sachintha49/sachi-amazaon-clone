@@ -1,0 +1,47 @@
+<div class="item-container">
+  <img class="item-image" src="https://m.media-amazon.com/images/I/81ShmEjv2RL._AC_SL1500_.jpg" alt="item-image">
+  <div>
+    <h2 class="item-title">LaCie Rugged Mini 2TB External Hard Drive Portable HDD - USB 3.0 USB 2.0 Compatible, Drop
+      Shock
+      Dust Rain Resistant Shuttle Drive</h2>
+    <div class="item-rating" [ngSwitch]="4">
+      <div *ngSwitchCase="5">⭐⭐⭐⭐⭐</div>
+      <div *ngSwitchCase="4">⭐⭐⭐⭐</div>
+      <div *ngSwitchCase="3">⭐⭐⭐</div>
+      <div *ngSwitchCase="2">⭐⭐</div>
+      <div *ngSwitchCase="1">⭐</div>
+    </div>
+    <div class="item-price">Price: <span>$234</span></div>
+    <div class="item-stock">In Stock: <span>3</span></div>
+    <div *ngIf="false" class="out-of-stock">Out Of Stock</div>
+Add to Cart
+    <div class="input-group mb-3 add-to-cart-ctrl">
+      <button class="btn btn-outline-secondary" type="button">-</button>
+      <input [disabled]="true" type="text" class="form-control" placeholder="">
+      <button class="btn btn-outline-secondary" type="button">+</button>
+    </div>
+  </div>
+</div>
+
+<div class="item-description">
+  <div> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dolores illum laboriosam nulla praesentium,
+    quaerat
+    quam velit vitae! Asperiores cum dicta ducimus magnam neque officiis pariatur, quam qui quibusdam tempora.
+  </div>
+  <div> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dolores illum laboriosam nulla praesentium,
+    quaerat
+    quam velit vitae! Asperiores cum dicta ducimus magnam neque officiis pariatur, quam qui quibusdam tempora.
+  </div>
+  <div> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dolores illum laboriosam nulla praesentium,
+    quaerat
+    quam velit vitae! Asperiores cum dicta ducimus magnam neque officiis pariatur, quam qui quibusdam tempora.
+  </div>
+  <div> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dolores illum laboriosam nulla praesentium,
+    quaerat
+    quam velit vitae! Asperiores cum dicta ducimus magnam neque officiis pariatur, quam qui quibusdam tempora.
+  </div>
+  <div> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dolores illum laboriosam nulla praesentium,
+    quaerat
+    quam velit vitae! Asperiores cum dicta ducimus magnam neque officiis pariatur, quam qui quibusdam tempora.
+  </div>
+</div>
